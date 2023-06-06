@@ -1,0 +1,26 @@
+#header nav {
+    background-color: #6351AB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+#header a:hover {
+    color: #15121E;
+}
+
+@media(max-width: 500px) {
+    #header nav {
+        padding: 10px;
+    }
+    #header a {
+        font-size: 15px;
+    }
+}
